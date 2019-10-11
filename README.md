@@ -1,3 +1,5 @@
+🍈 Gatsby Melon Boilerplate
+
 A **GatsbyJS** boilerplate with **Redux**.
 
 ##### What is Gatsby?
