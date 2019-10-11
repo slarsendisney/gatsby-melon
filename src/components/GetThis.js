@@ -14,7 +14,11 @@ export default () => (
       </code>
       <h4>
         Not the boilerplate for you?{" "}
-        <a href="https://sld.codes" target="_blank" className="link">
+        <a
+          href="https://boilerplates.sld.codes"
+          target="_blank"
+          className="link"
+        >
           Click here to see my other boilerplates.
         </a>
       </h4>
