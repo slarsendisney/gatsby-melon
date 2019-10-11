@@ -1,4 +1,4 @@
-🍈 Gatsby Melon Boilerplate
+# 🍈 Gatsby Melon Boilerplate
 
 A **GatsbyJS** boilerplate with **Redux**.
 
