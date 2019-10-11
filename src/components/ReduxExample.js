@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-const SocketExample = ({ counter, countUp }) => (
+const ReduxExample = ({ counter, countUp }) => (
   <div className="row container-small pad-20-t pad-20-b is-grey pad-10-l">
     <div className="col-xs-12">
       <h1 className="is-hero-sub-menu margin-0">Redux Example</h1>
@@ -35,9 +35,11 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-const ConnectedSocketExample = connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(SocketExample);
-
-export default ConnectedSocketExample;
+const ConnectedReduxExample =
+  typeof window !== `undefined`
+    ? connect(
+        mapStateToProps,
+        mapDispatchToProps
+      )(ReduxExample)
+    : ReduxExample;
+export default ConnectedReduxExample;
