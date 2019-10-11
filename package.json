@@ -43,9 +43,9 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "gatsby develop -o",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run hello  && gatsby develop",
+    "start": "npm run hello  && gatsby develop -o",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "hello": "node scripts/hello.js"
