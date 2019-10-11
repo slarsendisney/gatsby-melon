@@ -1,19 +1,20 @@
 import React from "react";
+import { Hero, GetThis } from "sld-component-library";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import Hero from "../components/Hero";
 import ReduxExample from "../components/ReduxExample";
-import GetThis from "../components/GetThis";
+
+import Places from "../data/Start.json";
 
 export default function Start() {
   return (
     <Layout>
       <SEO title="Home" />
       <div className="is-grey is-orange-bg">
-        <Hero />
+        <Hero places={Places} title="Melon" />
       </div>
       <div className="is-white-bg">
-        <GetThis />
+        <GetThis flag="melon" />
       </div>
       <div className="is-light-grey-bg">
         <ReduxExample />
