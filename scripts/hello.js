@@ -15,7 +15,7 @@ console.log(
 console.log(
   "\x1b[35m",
   `       ----------------------------------------------------
-        🍉  Boilerplate by Sam Larsen-Disney - HAPPY HACKING! 
+        🍈  Boilerplate by Sam Larsen-Disney - HAPPY HACKING! 
         ----------------------------------------------------  `
 );
 
