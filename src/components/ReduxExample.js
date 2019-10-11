@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 
 const ReduxExample = ({ counter, countUp }) => (
-  <div className="row container-small pad-20-t pad-20-b is-grey pad-10-l">
+  <div className="row container-small pad-10-t pad-10-b pad-10-l is-grey">
     <div className="col-xs-12">
       <h1 className="is-hero-sub-menu margin-0">Redux Example</h1>
     </div>
@@ -22,6 +22,11 @@ const ReduxExample = ({ counter, countUp }) => (
         Dispatch the action
       </button>
     </div>
+    {counter > 0 && (
+      <div className="col-xs-12">
+        <h4>🎉 Woah! Our counter has gone up!</h4>
+      </div>
+    )}
   </div>
 );
 
