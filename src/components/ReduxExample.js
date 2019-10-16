@@ -24,7 +24,12 @@ const ReduxExample = ({ counter, countUp }) => (
     </div>
     {counter > 0 && (
       <div className="col-xs-12">
-        <h4>🎉 Woah! Our counter has gone up!</h4>
+        <h4>
+          <span role="img" aria-label="celebrate">
+            🎉
+          </span>{" "}
+          Woah! Our counter has gone up!
+        </h4>
       </div>
     )}
   </div>
